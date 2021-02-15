@@ -238,82 +238,65 @@ const moreDotLessDash = (string) => {
 
 };
 
-const isSorted = (arr) => {
-
-};
-
-const toFeet = (distances) => {
-
-};
-
-const smallestPrime = (array) => {
-
-};
-
-const canConstruct = (note, letters) => {
-
-};
-
-const safeSpeedChanges = (arr) => {
-
-};
-
-const reverseHipsterfy = (sentence) => {
-
-};
-
-const winningHand = (hand1, hand2) => {
-
-};
-
-const shiftChars = (word, num) => {
-
-};
-
-const uncompressString = (string) => {
-
-};
-
-const fibonacci = (n) => {
-
-};
-
-const nickname = (name) => {
-
-};
-
-const removeNthLetter = (word, n) => {
-
-};
-
-const stopWatch = (totalSeconds) => {
-
-};
-
-const tallyCount = (arr) => {
-
-};
-
-const tripletSum = (array, sum) => {
-
-};
-
-const longestBigram = (sentence) => {
-
-};
-
-const maxAdjacentSum = (array) => {
-
-};
-
-const opposingSums = (array) => {
-
-};
-
-const additionSequence = (array, seq) => {
-
-};
-
-const reverseString = (string) => {
-
-};
+module.exports = {
+    logBetween,
+    logBetweenStepper,
+    printReverse,
+    fizzBuzz,
+    isPrime,
+    maxValue,
+    myIndexOf,
+    factorArray,
+    oddRange,
+    reverseHyphenString,
+    intersect,
+    mirrorArray,
+    abbreviate,
+    adults,
+    countScores,
+    firstNPrimes,
+    peakFinder,
+    divisibleByThreePairSum,
+    zipArray,
+    twoDimensionalTotal,
+    countInnerElement,
+    twoDiff,
+    arrayDiff,
+    valueCounter,
+    elementCount,
+    nextTwoPrimes,
+    pairProduct,
+    twoDimensionalSize,
+    longWordCount,
+    factorial,
+    lcm,
+    hipsterfyWord,
+    hipsterfy,
+    objectToString,
+    shortestWord,
+    greatestCommonFactor,
+    isPassing,
+    valueConcat,
+    threeInARow,
+    variableNameify,
+    threeIncreasing,
+    reverse2D,
+    reverb,
+    countRepeats,
+    pairToString,
+    countAdjacentSums,
+    signFlipCount,
+    powerSequence,
+    collapseString,
+    oddWordsOut,
+    mindPsAndQs,
+    commonFactors,
+    commonPrimeFactors,
+    splitHalfArray,
+    threeUniqueVowels,
+    vowelShift,
+    hasSymmetry,
+    evenSumArray,
+    numToWords,
+    moreDotLessDash
+}
