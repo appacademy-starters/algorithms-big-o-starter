@@ -21,8 +21,9 @@ const randomNumberArr = (max) => {
 /****************************** Testing push ******************************/
 const jsPush = (arr) => {
     const res = new Array();
+    const n = arr.length;
 
-    for (let i = 0; i < arr.length; i++) {
+    for (let i = 0; i < n; i++) {
         res.push(arr[i]);
     }
 
@@ -47,12 +48,14 @@ const jsPush = (arr) => {
 
 /****************************** Testing pop ******************************/
 const jsPop = (arr) => {
-    for (let i = 0; i < arr.length; i++) {
-        arr.pop()
+    const n = arr.length;
+    for (let i = 0; i < n; i++) {
+        arr.pop();
     }
     
     return arr;
 };
+
 
 // Write hypothesis for time complexity here
 
@@ -84,8 +87,9 @@ const jsPop = (arr) => {
 /****************************** Testing unshift ******************************/
 const jsUnshift = (arr)  => {
     const res = new Array();
+    const n = arr.length;
 
-    for (let i = 0; i < arr.length; i++) {
+    for (let i = 0; i < n; i++) {
         res.unshift(arr[i]);
     }
     
@@ -107,9 +111,9 @@ const jsUnshift = (arr)  => {
 
 /****************************** Testing shift ******************************/
 const jsShift = (arr)  => {
-    const res = new Array();
+    const n = arr.length;
 
-    for (let i = 0; i < arr.length; i++) {
+    for (let i = 0; i < n; i++) {
         arr.shift();
     }
     
